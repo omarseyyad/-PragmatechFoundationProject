@@ -1,0 +1,70 @@
+.umumi{
+
+height:80vh ;
+width: 100%;
+background-color: brown;
+
+}
+.qutu1{
+  height:420px ;
+  width: 380px;
+  border: 1px  solid brown;
+  display: inline-block;
+ 
+}
+.qutuorta{
+height:120px ;
+width:146px ;
+border: solid brown 3px;
+display: inline-block;
+background-color: peachpuff;
+
+
+
+
+}
+.boyukqutu{
+  height: 250px;
+  width:300px ;
+  background-color: peachpuff;
+  border: peachpuff solid 2px;
+
+}
+.qutu2{
+height: 420px;
+width: 180px;
+border:  1px solid brown;
+display: inline-block;
+padding-top:80px;
+
+}
+
+
+.qutu3{
+  height: 420px;
+  width: 180px;
+  border:  1px brown;
+  display: inline-block;
+  padding-top: 100px;
+  
+  }
+
+
+
+
+
+
+
+.baqutu{
+  height:50px ;
+  width: 120px;
+  border: peachpuff solid 1px;
+  display: inline-block;
+  margin-top: 10px;
+  background-color: peachpuff;
+  
+ 
+}
+.novbar{
+  color: peachpuff;
+}

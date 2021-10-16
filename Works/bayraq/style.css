@@ -1,0 +1,44 @@
+.flag{
+    height:0px ;
+    width:0px ;
+    border: 2px black solid;
+    margin: auto;
+   
+     background-color: red;
+     border-top: 100px solid blue
+     ;
+     border-bottom: 100px solid green;
+     border-right: 100px solid yellow;
+     border-left: solid black 100px;
+     
+
+
+}
+.gerb1{
+    height: 300px;
+    width: 300px;
+    border: black solid 2px;
+    margin: auto;
+    position: absolute;
+}
+.gerb2{
+    height: 300px;
+    width: 300px;
+    border: black solid 2px;
+    margin: auto;
+    transform: rotate(45deg);
+    position: absolute;
+}
+.gerb3{
+    height: 300px;
+    width: 300px;
+    border: black solid 2px;
+    margin: auto;
+    transform: rotate(90deg);
+    position: absolute;
+}
+.gerb{
+    position: relative;
+    margin: auto;
+    margin-left: 100px;
+}

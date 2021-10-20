@@ -96,8 +96,6 @@ body {
     
 }
 
-
-
 .row {
     display: flex;
     justify-content: space-between;
@@ -150,12 +148,23 @@ body {
     width: calc((100%/12)*12)
 }
 .see1 h1{
-    font-size: 30px;
+    /* font-size: 30px; */
+    color: #333;
+    font-family: 'Festive', cursive;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    padding-bottom: 10px;
+    
+    
 }
 .see1 span{
-    background-color:rgba(255, 255, 149, 0.8) ;
-   
-    padding: 0px 10px;
+    background-color: rgba(255, 255, 149, 0.8);
+    padding: 6px 10px;
+    display: block;
+    max-width: 70px;
+    margin: 15px auto;
+
 }
 
 
@@ -215,13 +224,21 @@ body {
     text-align: center;
 }
 .box3 h1{
-    font-size: 30px;
     margin-bottom: 0px;
+    color: #333;
+    font-family: 'Festive', cursive;
+font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size:28px ;
+    padding-bottom: 10px;
+
 }
 .box3 span{
     background-color: rgba(255, 255, 149, 0.8);
-    font-size: 25px;
-    padding: 0px 10px;
+    padding: 6px 10px;
+    display: block;
+    max-width: 80px;
+    margin: 15px auto;
      }
 .see4{
     height: 250px;
@@ -254,15 +271,11 @@ body {
 .box4 button{
    font-size: 30px;
    margin: 20px 300px;
-  
-
 }
 
 .box4 button:hover{
     background-color: rgba(255, 255, 149, 0.8);
-    
-
-}
+    }
 
 
 .box4{
@@ -301,7 +314,7 @@ textarea:focus {
 .abauttext{
     height: 500px;
     width: 800px;
-    
+    margin-left: 30px;
      }
      
 .work1{
@@ -320,13 +333,16 @@ textarea:focus {
     display: block;
 }
 .textme p{
-    font-size: 35px;
+    font-size: 37px;
     margin: 0px;
+    background: aliceblue;
+    font-family: 'Festive', cursive;
+font-family: 'Rampart One', cursive;
 }
 .xett{
     width: 100px;
     border: black solid 1px;
-    margin: auto;
+    margin:  0px auto;
     
 }
 .see1 h1{

@@ -8,10 +8,19 @@
 // }
 
 // İstifadəci ekrandan 1 rəqəmini daxil edəndə 1-100 arası ədədlərin cəmini ekrana cap edin
-function eded(){
+// function eded(){
 
-}
-let eded=prompt('Ededi daxil edin:')
+// }
+// let eded=prompt('Ededi daxil edin:')
 
-  alert(eded)
-}
+//   alert(eded)
+// }
+
+
+
+
+// let=30;
+// function bax(){
+// console.log(30)
+// }
+// bax()

@@ -8,7 +8,7 @@
 // }
 
 // İstifadəci ekrandan 1 rəqəmini daxil edəndə 1-100 arası ədədlərin cəmini ekrana cap edin
-function eded(2){
+function eded(){
 
 }
 let eded=prompt('Ededi daxil edin:')

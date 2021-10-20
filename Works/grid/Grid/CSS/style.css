@@ -1,0 +1,16 @@
+.box{
+    height:200px ;
+    width: 300px;
+    border: solid goldenrod 3px;
+    background-color: rgb(182, 23, 182);
+    
+}
+.row{
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-rows: 200px 200px 200px ;
+    gap: 30px 50px;
+    
+    
+}

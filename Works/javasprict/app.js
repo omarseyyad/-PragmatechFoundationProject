@@ -88,3 +88,11 @@ consoleda Sizin adiniz : ad , Sizin soyadiniz : soyad (numune : Sizin adiniz: Sa
 //  let soyad=prompt('Istifadecinin Soyadi:')
 //  let netice=(('Sizin adiniz:'+ ad)+(',') +('Sizin soyadiniz:'+soyad))
 //  console.log(netice)
+
+
+let age=prompt('yasinizi daxil edin:')
+if(age>12){
+    alert('Saytimiza xos geldiniz')
+}else{
+    alert('Azyasli usaqlar ucun giris qadagandir!')
+}

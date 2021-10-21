@@ -333,11 +333,9 @@ textarea:focus {
     display: block;
 }
 .textme p{
-    font-size: 37px;
+    font-size: 24px;
     margin: 0px;
-    background: aliceblue;
-    font-family: 'Festive', cursive;
-font-family: 'Rampart One', cursive;
+    
 }
 .xett{
     width: 100px;

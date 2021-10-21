@@ -34,3 +34,23 @@ funk();
 3.əgər bir dəyişkəni yenidən düzəliş etmək istəyirsinizsə let istifadə edin
 
 4.unutmayınki hər zaman let , var – dan daha rahatdır və const, let -dən daha rahatdır
+
+
+
+
+
+Sual 2:javascript müqaisə operatorlarıni istifadə edərək hər hansı kod nümunəsi yazın
+
+
+
+let age=prompt('yasinizi daxil edin:')
+
+if(age>12){
+
+    alert('Saytimiza xos geldiniz')
+    
+}else{
+
+    alert('Azyasli usaqlar ucun giris qadagandir!')
+    
+}

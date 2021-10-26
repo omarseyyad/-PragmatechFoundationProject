@@ -215,14 +215,15 @@ alert(str.length)  */
 
 // Verilən nums=[1,2,3,6,7,8,23,78,34,12]
 
-/* 14) Ədədlərin cəmini tapan metod yazın */
- let nums=cem([1,2,3,6,7,8,23,78,34,12])
-function cem([a,b,c,d,e,f,g,h,i,x]){
-    return a+b+c+d+e+f+g+h+i+x
-}
-alert(nums)
+/* 14) Ədədlərin cəmini tapan metod yazın 
+ let nums=[1,2,3,6,7,8,23,78,34,12]
+ let netice=0
+ for(let i=0;i<nums.length;i++){
+     netice=netice+nums[i]
+ }
+ console.log(netice)*/
 
-    
+
 
 /* 15) Ədədlərin böyükdən kiçiyə doğru sıralayın */
 
@@ -235,3 +236,28 @@ alert(nums)
 /* 19) Daxilində 3 rəqəmi olan neçə ədəd olduğunu ekrana çap edən metod yazın */
 
 /* 20) Tək ədədləri ayıraraq ayrıca bir massivə yığan metod yazın */
+
+               /*  Week06-Day01 [25 Oktyabr 2021]
+
+1) qrup üzvlərinin ad, soyad və yaşlarının toplandığı adlar, soyadlar və yaslar adli array yaradin.Butun telebelerin ad soyad yaslarini bu arraylardan istifade ederek ekrana cap eden funksiya yazin.Numune(Telebe01 : Aysel Mustafayeva 21) */
+  let telebeler=['Telebe01:' ,'Telebe02:' ,'Telebe03:', 'Telebe04:']
+let adlar= ["Aysel","Mehdi","Murad","Senan"]
+ let soyadlar= ["Mustafayeva","Mehdiyev","Muradov","Senenov"]
+ let yaslar= [21,17,19,22]
+
+
+   let group=[];
+ let İndex=0;
+
+     for(let i=0;i<telebeler.length;i++)
+     {
+     group.push( telebeler[i] + ' '+ adlar[i] +' '+ soyadlar[i]  +' '+yaslar[i] )
+ }
+
+    
+ 
+
+
+/* 2) Birinci tapsirigdaki melumatlar 3 saniye fasile ile ekranda gorunsun */
+setInterval(function(){console.log(group[İndex])
+    İndex++},3000)

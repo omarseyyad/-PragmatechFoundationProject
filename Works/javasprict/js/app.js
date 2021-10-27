@@ -237,7 +237,11 @@ alert(str.length)  */
 
 /* 20) Tək ədədləri ayıraraq ayrıca bir massivə yığan metod yazın */
 
-               /*  Week06-Day01 [25 Oktyabr 2021]
+               
+
+
+
+             /*  Week06-Day01 [25 Oktyabr 2021]
 
 1) qrup üzvlərinin ad, soyad və yaşlarının toplandığı adlar, soyadlar və yaslar adli array yaradin.Butun telebelerin ad soyad yaslarini bu arraylardan istifade ederek ekrana cap eden funksiya yazin.Numune(Telebe01 : Aysel Mustafayeva 21) */
   let telebeler=['Telebe01:' ,'Telebe02:' ,'Telebe03:', 'Telebe04:']
@@ -253,10 +257,6 @@ let adlar= ["Aysel","Mehdi","Murad","Senan"]
      {
      group.push( telebeler[i] + ' '+ adlar[i] +' '+ soyadlar[i]  +' '+yaslar[i] )
  }
-
-    
- 
-
 
 /* 2) Birinci tapsirigdaki melumatlar 3 saniye fasile ile ekranda gorunsun */
 setInterval(function(){console.log(group[İndex])

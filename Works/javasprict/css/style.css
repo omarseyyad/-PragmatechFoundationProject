@@ -1,0 +1,26 @@
+.box{
+    height:400px ;
+    width:600px ;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    height: 50px;
+    width: 100px;
+   align-items: center;
+   background-color: coral;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+
+}
+   .klas{
+       display: flex;
+       justify-content: center;
+   }

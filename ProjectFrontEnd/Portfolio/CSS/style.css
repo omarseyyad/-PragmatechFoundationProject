@@ -141,7 +141,7 @@ color: rgb(77, 163, 77) ;
 
 #about{
     padding-top: 120px;
-    padding-bottom: 150px;
+    /* padding-bottom: 150px; */
 }
 
 #aboutbox{

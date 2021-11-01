@@ -2,10 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+body{
 	line-height: 1;
-    margin: 0px;
-}
+    margin: 0px; 
+     }
 
 #nav{
      width: 100%; 
@@ -13,18 +13,17 @@ body {
      background: #fff;
      position: 0px;
      border-bottom: rgb(226, 223, 223) solid 1px;
-     
-}
+    }
+
 .container {
     width: 100%;
-    margin: 0 auto;
-}
+    margin: 0 auto
+ } 
+
 .row {
     display: flex;
     justify-content: space-between;
-
 }
-
 
 .col-1 {
     width: calc((100%/12)*1)
@@ -81,8 +80,6 @@ body {
     list-style: none;
     margin-top: 23px;
     margin-right: 120px;
-   
-    
 }
 
   li a{
@@ -94,7 +91,6 @@ body {
     color: #131313;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
-   
 }
 
 li a:hover{
@@ -111,7 +107,6 @@ color: rgb(77, 163, 77) ;
    height: 100vh;
    background-image: url(image/wam\ \(1\).jpg) ;
    background-image: repeat no-repeat ;
-   
 }
 
 .home img{
@@ -141,7 +136,6 @@ color: rgb(77, 163, 77) ;
 
 #about{
     padding-top: 120px;
-    /* padding-bottom: 150px; */
 }
 
 #aboutbox{
@@ -151,11 +145,9 @@ color: rgb(77, 163, 77) ;
 
 #about h2{
     font-size: 2.3em;
-    /* margin-top: 40px; */
     margin-bottom: 20px;
     color: #131313;
     font-family: 'Hind', sans-serif;
-    
 }
 
 #about h4{
@@ -171,6 +163,7 @@ color: rgb(77, 163, 77) ;
     margin-top: 70px;
     margin-left: 100px;
 }
+
 #aboutnumber div{
     font-size: 20px; 
     color: #131313;
@@ -199,7 +192,6 @@ color: rgb(77, 163, 77) ;
     padding: 0;
     line-height: 26px;
     margin-bottom: 20px;
-
 }
 
 .abouticons {
@@ -227,7 +219,6 @@ color: rgb(77, 163, 77) ;
     margin-top: 30px;
     margin-left: -5px;
     margin-bottom: 100px;
-
 }
 
 #about button:hover{
@@ -244,7 +235,7 @@ padding-left: 10px;
 padding-right: 10px;
 opacity: 1;
 transition: 1s;
-    }
+}
 
 #portfolio{
     padding-bottom: 70px;
@@ -265,7 +256,6 @@ transition: 1s;
     display: flex;
     justify-content: space-around;
     margin: auto;
-    
 }
 
 .portbuttons div{
@@ -276,7 +266,6 @@ transition: 1s;
     margin: 0px 10px;
     margin-top: 70px;
     margin-bottom: 30px;
-
 }
 
 .portfoliophoto{
@@ -284,15 +273,13 @@ transition: 1s;
     display: flex;
     gap: 33px;
     padding-top: 30px;
-    
-    
 }
 
 #portfolio img{
     height: 240px;
     width: 360px;
-    
 }
+
 #testimonial{
     background-image: url(image/wam\ \(1\).jpg);
     margin-bottom: 40px;
@@ -310,7 +297,6 @@ transition: 1s;
     text-align: center;
     width: 600px;
     margin: auto;
-    
 }
 
 .rowtestimonial{
@@ -318,9 +304,7 @@ transition: 1s;
 }
 
 .rowtestimonial h3{
-    
-    padding-top: 85px;
-
+ padding-top: 85px;
 }
 
 .rowtestimonial p{
@@ -356,15 +340,14 @@ transition: 1s;
     display: block;
     margin-bottom: 60px;
 }
+
 #blog{
     padding: 90px 0px 95px 0px;
-
 }
 
 .blogcontainer{
     display: block;
 }
-
 
 #blog img{
     width: 358px;
@@ -404,16 +387,13 @@ transition: 1s;
     font-weight: 600;
     font-size: 14px;
     margin-top: 25px;
-    }
+ }
 
 .blogbox p{
     margin-bottom: 30px;
     font-size: 14px;
     line-height: 26px;
     font-family: 'Lato', sans-serif;
-    
-   
-
 }
 
  #button {
@@ -456,7 +436,6 @@ font-family: 'Lato', sans-serif;
     font-family: 'Hind', sans-serif;
     font-weight: 500;
     margin-top: 0px;
-    
 }
 
 .icons{
@@ -469,7 +448,6 @@ font-family: 'Lato', sans-serif;
 
 #contact i:hover{
     color:rgb(77, 163, 77) ;
-
 }
 
 .inputs{
@@ -485,9 +463,6 @@ input{
     width: 350px;
     margin-left: 15px;
     margin-right: 15px;
-    
-    
-    
 }
 
 input:focus { 

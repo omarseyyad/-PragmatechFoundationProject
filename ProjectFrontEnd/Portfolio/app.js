@@ -1,5 +1,14 @@
-
-
+const text="I am backend  Developer";
+let index=0;
+function writetext(){
+    document.#home.innerText=text.slice
+    (0,index);
+    index++;
+    if(index>text.length-1){
+        index=0;
+    }
+}
+setInterval(writetext,100);
 
 
 

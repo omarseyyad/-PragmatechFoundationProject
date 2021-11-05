@@ -1,0 +1,32 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background:darksalmon;
+}
+
+button{
+    transform: translate(-50%, -50%);
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    padding: 30px 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family:'source sans pro','sans-serif'; 
+    font-weight: 200;
+    color: white;
+    font-size: 40px;  
+    outline: none; 
+    cursor:pointer;
+    transition: all ease .3s;
+    color:black;
+}
+
+h1{
+    margin-top:200px;
+    align-items: center;
+    text-align: center;
+    color: black;
+}

@@ -9,3 +9,9 @@
 # if yas>35:
 #     print('kefen hazirdir')
 
+numbers=[1,2,3,4,5,78,45,23]
+
+numbers.append(15)
+numbers.append(22)
+numbers.append(33)
+print(numbers)

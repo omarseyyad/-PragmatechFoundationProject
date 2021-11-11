@@ -18,56 +18,65 @@
 
 # List metodları və tuple metodlarını qarşılaşdırın aradakı fərqləri kod nümumələri ilə izah edin.
 
-fruits = ['apple', 'banana', 'cherry']
-fruits.append("orange")
-print(fruits)
+# fruits = ['apple', 'banana', 'cherry']
+# fruits.append("orange")
+# print(fruits)
 
 
-fruits = ["apple", "banana", "cherry"]
-fruits.clear()
-print(fruits)
+# fruits = ["apple", "banana", "cherry"]
+# fruits.clear()
+# print(fruits)
 
-fruits = ["apple", "banana", "cherry"]
-x = fruits.copy()
-print(x)
+# fruits = ["apple", "banana", "cherry"]
+# x = fruits.copy()
+# print(x)
 
-fruits = ["apple", "banana", "cherry"]
-x = fruits.count("cherry")
-print(x)
+# fruits = ["apple", "banana", "cherry"]
+# x = fruits.count("cherry")
+# print(x)
 
-fruits = ['apple', 'banana', 'cherry']
-cars = ['Ford', 'BMW', 'Volvo']
-fruits.extend(cars)
-print(fruits)
+# fruits = ['apple', 'banana', 'cherry']
+# cars = ['Ford', 'BMW', 'Volvo']
+# fruits.extend(cars)
+# print(fruits)
 
-fruits = ['apple', 'banana', 'cherry']
-x = fruits.index("cherry")
-print(x)
+# fruits = ['apple', 'banana', 'cherry']
+# x = fruits.index("cherry")
+# print(x)
 
-fruits = ['apple', 'banana', 'cherry']
-fruits.insert(1, "orange")
-print(fruits)
+# fruits = ['apple', 'banana', 'cherry']
+# fruits.insert(1, "orange")
+# print(fruits)
 
-fruits = ['apple', 'banana', 'cherry']
-fruits.pop(1)
-print(fruits)
+# fruits = ['apple', 'banana', 'cherry']
+# fruits.pop(1)
+# print(fruits)
 
-fruits = ['apple', 'banana', 'cherry']
-fruits.remove("banana")
-print(fruits)
+# fruits = ['apple', 'banana', 'cherry']
+# fruits.remove("banana")
+# print(fruits)
 
-fruits = ['apple', 'banana', 'cherry']
-fruits.reverse()
-print(fruits)
+# fruits = ['apple', 'banana', 'cherry']
+# fruits.reverse()
+# print(fruits)
 
-cars = ['Ford', 'BMW', 'Volvo']
-cars.sort()
-print(cars)
+# cars = ['Ford', 'BMW', 'Volvo']
+# cars.sort()
+# print(cars)
 
-thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
-x = thistuple.count(5)
-print(x)
+# thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+# x = thistuple.count(5)
+# print(x)
 
-thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
-x = thistuple.index(8)
-print(x)
+# thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+# x = thistuple.index(8)
+# print(x)
+
+
+# x = 5
+# y = 3
+# print(x + y)
+
+# let x ='5';
+# let y = 2;
+# document.getElementById("demo").innerHTML =x+y;

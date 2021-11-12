@@ -31,5 +31,5 @@ telebeler=[
 for i in range(len(telebeler)):
     print(telebeler[i]['ad'])
 
-for i in
+
 

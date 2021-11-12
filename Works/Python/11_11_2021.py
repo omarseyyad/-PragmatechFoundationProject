@@ -28,15 +28,25 @@ telebeler=[
     
 ]
 
+# for i in range(len(telebeler)):
+#     print(telebeler[i]['ad'])
+
+
+# yaslar=[30,20,16,45,50]
+# cem=yaslar[0]+yaslar[1]+yaslar[2]+yaslar[3]+yaslar[4]
+# print(cem)
+
+
+# for i in range(len(telebeler)):
+#     if(telebeler[i]['ad']=='Ehmed'):
+#         print(telebeler[i])
+
+# ad=input('istifadecinin adini daxil edin:')
+# if ad==('samir'):
+#         print(telebeler[0])
+
+
+ad=input('istifadecinin adini daxil edin:')
 for i in range(len(telebeler)):
-    print(telebeler[i]['ad'])
-
-
-yaslar=[30,20,16,45,50]
-cem=yaslar[0]+yaslar[1]+yaslar[2]+yaslar[3]+yaslar[4]
-print(cem)
-
-
-for i in range(len(telebeler)):
-    if(telebeler[i]['ad']=='Ehmed'):
+    if(ad==telebeler[i]['ad']):
         print(telebeler[i])

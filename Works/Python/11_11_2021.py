@@ -36,3 +36,7 @@ yaslar=[30,20,16,45,50]
 cem=yaslar[0]+yaslar[1]+yaslar[2]+yaslar[3]+yaslar[4]
 print(cem)
 
+
+for i in range(len(telebeler)):
+    if(telebeler[i]['ad']=='Ehmed'):
+        print(telebeler[i])

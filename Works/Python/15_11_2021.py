@@ -11,4 +11,4 @@ def hesabla():
     elif emr=='/':
         return a/b
     else:
-        return 'Sehv emelyat'
+        return 'Sehv emeliyyat'

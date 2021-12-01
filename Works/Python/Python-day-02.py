@@ -38,6 +38,7 @@ for element in ededler:
     else:
         print(element, 'eded deyil')
 
+
 ededler=[1,2,3,'salam',True]
 eded=[]
 string=[]
